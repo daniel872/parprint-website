@@ -1,10 +1,9 @@
 @import 'sass/abstracts/variables';
 
 
-.row{max-width: 100%;
-    margin: 0 auto;
-    background-color: rgb(231, 230, 230);
-    position: relative;
+.row{max-width: 75%;
+    margin: 1rem auto;
+
     // height:30rem;
        
     }
@@ -41,3 +40,33 @@
     }
     
 }
+.row{
+
+    
+    .col-1-of-3:not(:last-child){
+        margin-right: $margin-right-3;;
+
+    }
+    // .col-1-of-3:first-child{
+    //     background-color:blue;
+    // }
+    .col-1-of-3{
+        width:calc((100% - 2 * #{$margin-right-3})/3);
+        background-color:$colour-red;
+        float: left;
+        text-align: center;
+        transition: all 0.5s ease-out;
+    &:hover{
+        transform: scale(1.05);
+    }
+    }
+
+    a{text-decoration: none;}
+
+    p{color: $colour-text-light;
+        margin-top: -2.5rem;
+        margin-bottom: 0.5rem;
+        font-size: 1.2rem;
+    }
+}
+
