@@ -58,13 +58,13 @@
                 </div>
               </div>
               <li class="item">
-                <a class="link" href="#how-to-use">Portofolio</a>
+                <a class="link" href="#portofolio">Portofolio</a>
               </li>
               <li class="item">
-                <a class="link" href="#example">Get a quote</a>
+                <a class="link" href="#popup">Get a quote</a>
               </li>
               <li class="item">
-                <a class="link" href="#example">Contact</a>
+                <a class="link" href="contact.html">Contact</a>
               </li>
             </div>
             <div class="list -right">
@@ -79,13 +79,13 @@
                 <h1 class='getstarted_title'>Get Started Today!
                     <span class='getstarted_description' >We are a full service design, prepress, printing, finishing and direct mail / lettershop facility.</span>
                 </h1>
-                <button class="getstarted_button"><a class="getstarted_button_link" href='#'>Get a quote</a></button>
+                <button class="getstarted_button"><a class="getstarted_button_link" href='#popup'>Get a quote</a></button>
             </div>
 
         </div>
     </section>
 
-        <section class="whatwedo">
+        <section class="whatwedo" id='whatwedo'>
            
                 <h1 class="whatwedo title">What we do!</h1>
 
@@ -141,7 +141,7 @@
                       That’s why all of our products are backed by a 100% satisfaction guarantee. 
                       If you are not completely satisfied, just let us know and we’ll do whatever we can to make it right.</span>
                 </h1>
-                <button class="guarantee_button"><a class="getstarted_button_link" href='#'>Get in touch</a></button>
+                <button class="guarantee_button"><a class="getstarted_button_link" href='contact.html'>Get in touch</a></button>
             </div>
 
         </div>
@@ -193,24 +193,73 @@
         </form>
       </section>
 
-      <div class='getintouch'>
-        <div class='getintouch_box_text'>
-            <h1 class='getintouch_title'>get in touch
-                <span class='getintouch_description' ><a class='getintouch_link' href='https://www.google.ca/maps/place/PAR+PRINT+GROUP+INC/@43.871724,-78.9213333,17z/data=!3m1!4b1!4m5!3m4!1s0x89d51de5a809d2fd:0x4da2ad7cb9dc29f!8m2!3d43.871724!4d-78.9191446'><i class="fas fa-map-marker-alt"></i>11-105 Industrial Drive Whitby, Ontario, Canada  L1N 5Z9</a></span>
-                <span class='info@parprintgroup.com' ><i class="fas fa-envelope-square"></i>info@parprintgroup.com</span>
-                <span class='getintouch_description' ><i class="fas fa-phone"></i>905.430.8300</span>
-            </h1>
+      <section class="quote-popup" id='popup'>
+        
+          <div class='quote-popup-box-text'>
+            <h1 class='quote-popup-title'>get a quote
+               <span class="close"><a class="close-link" href='#'>&times</a></span>
+            </h1></div>
+        <form class="form">
+          <div class="form-group">
+            <!-- <label for="formGroupExampleInput">Example label</label> -->
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <!-- <label for="formGroupExampleInput2">Another label</label> -->
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="First and Last Name">
+          </div>
+          <div class="form-group">
+            <!-- <label for="formGroupExampleInput2">Another label</label> -->
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Company">
+          </div>
+          <div class="form-group">
+            <!-- <label for="formGroupExampleInput2">Another label</label> -->
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Phone Number">
+          </div>
+          <div class="form-group">
+            <!-- <label for="formGroupExampleInput2">Another label</label> -->
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Full Shipping Address">
+          </div>
+          <div class="form-group">
+            <!-- <label for="formGroupExampleInput2">Another label</label> -->
+            <select id="inputState" class="form-control" placeholder="Job Type">
+            <option selected>Job Type</option>
+              <option>Business Stationary</option>
+              <option>Signage/Displays/Posters</option>
+              <option>Design Services</option>
+              <option>Brochures/Annual Reports</option>
+              <option>Marketing/Promotional Materials</option>
+              <option>Other</option>
+            </select>
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1"></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="Aditional information"></textarea>
+              </div>
+            <button type="submit" class="form-group-btn">Submit</button>
+        </form>
+        <div class="popup-footer">
+          <ul class="popup-footer-list">
+            <li class="popup-footer-list-item"><a href="#header" class="footer-list-link">Home |</a></li>
+            <li class="popup-footer-list-item"><a href="aboutus.html" class="footer-list-link">About us |</a></li>
+            <li class="popup-footer-list-item"><a href="#whatwedo" class="footer-list-link">Services |</a></li>
+            <li class="popup-footer-list-item"><a href="#" class="footer-list-link">Portofolio |</a></li>
+            <li class="popup-footer-list-item"><a href="#popup" class="footer-list-link">Get a quote |</a></li>
+            <li class="popup-footer-list-item"><a href="#" class="footer-list-link">Contact</a></li>
+          </ul>
+          <p class='popup-footer-para '>&copy Copyright 1974 - 2020 PAR PRINT GROUP INC. and cannot be reproduced without prior written permission.</p>
         </div>
-      </div>
+
+    </section>
 
         <div class="footer">
           <ul class="footer-list">
             <li class="footer-list-item"><a href="#header" class="footer-list-link">Home |</a></li>
-            <li class="footer-list-item"><a href="#" class="footer-list-link">About us |</a></li>
+            <li class="footer-list-item"><a href="aboutus.html" class="footer-list-link">About us |</a></li>
             <li class="footer-list-item"><a href="#" class="footer-list-link">Services |</a></li>
             <li class="footer-list-item"><a href="#" class="footer-list-link">Portofolio |</a></li>
-            <li class="footer-list-item"><a href="#" class="footer-list-link">Get a quote |</a></li>
-            <li class="footer-list-item"><a href="#" class="footer-list-link">Contact</a></li>
+            <li class="footer-list-item"><a href="#quote" class="footer-list-link">Get a quote |</a></li>
+            <li class="footer-list-item"><a href="contact.html" class="footer-list-link">Contact</a></li>
           </ul>
           <p class='footer-para '>&copy Copyright 1974 - 2020 PAR PRINT GROUP INC. and cannot be reproduced without prior written permission.</p>
         </div>

@@ -14,6 +14,9 @@
 @import './pages/creative';
 @import './pages/directmail';
 @import './pages/marketing';
+@import './pages/aboutus';
+@import './pages/contact';
+@import './components/popup';
 
 
 
@@ -36,6 +39,7 @@ html{font-size: 100%;}
 body{
     padding:1%;
     font-family: 'Montserrat', sans-serif;
+    position: relative;
     }
 
 .header{position: relative;
@@ -193,91 +197,20 @@ color: $colour-white;}
             font-weight: 500;
             text-transform: uppercase;
 
-
             }
-        }
-
-
-
-
-    .getintouch{
-       
-       @include card(to left,rgb(5, 0, 0),rgba(199, 198, 198, 0.158),"../Images/Home/getintouch.png");
-       min-height:45rem;
-       
-       
- 
-            
-             
-                 &_link{
-                     text-decoration: none;
-                     text-transform: uppercase;
-                     color:$colour-text-light;
-                     font-family: 'Montserrat', sans-serif;
-                     font-weight: 300;                    
-                }
-             
-
-             
-        &_box_text{
-        @include box-text;
-        right:2rem;
-
-        &>h1{
-        @include title
-
-        
-        }
-
-        & span{
-        @include subtitle;
-        margin-top: 2rem;
-        i{
-            margin-right: 1rem;
-        }
+img{width: 100%;}
 
         }
-        &>h1, span{
-        display: block;            
-        }
-
-        &>h1 span{width: 100%; 
-        }
-        
-                }
-             }
 
 
-             .quote{
-                min-height:45rem;
-                
-                &_box_text{
 
-                padding:2rem 2rem 0;
-                text-align:center;
-            }
+
     
-            &_title{
-            @include title
-    
-            
-            }
-    
-            &_description{
-            @include subtitle
-            }
-            &>h1, span{
-            display: block;            
-            }
-    
-            &>h1 span{width: 100%; 
-            }  
-        }
-                      
 
 
 /* media querries */
 @media only screen and (max-width:1200px){
+    html{font-size: 70%;}
 .col-3-of-4, .col-1-of-4{
     float: none;
     width:98%;
