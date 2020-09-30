@@ -1,0 +1,74 @@
+.portfolio{
+
+    // @include card(to right,#65ad45,rgba(255, 255, 255, 0.187),"../Images/home.jpg");
+    position: relative;
+    min-height:45rem;
+    border-bottom: 3px solid $colour-red;
+
+          &_arrow{
+            clip-path: polygon(0 0, 55% 0, 38% 100%, 0% 100%);
+
+            min-height:45rem;
+            background-color:$colour-green;
+            margin-bottom: 1rem;
+           
+
+          
+
+          &>h1{
+              @include center;
+              color: white;
+              position: absolute;
+              top:24rem;
+              font-size: 5rem;
+              left:5rem;
+              
+          }
+          &>p{
+            @include center;
+            color: white;
+            position: absolute;
+            top:30rem;
+            font-size: 2rem;
+            left:5rem;
+          }
+        }
+
+        &-carousell{
+            min-height:45rem;
+            width:63%;
+            background-color: grey;
+            // background-image: url("../Images/Home/monk.jpg");
+            background-size: cover;
+            
+            position: absolute;
+            top:0;
+            right:0;
+            overflow: hidden;
+            max-height: 60rem;
+
+        }
+
+        &-btn-left{
+            cursor: pointer;
+            position: absolute;
+            bottom: 0.5rem;
+            left:8rem;
+            border: none;
+            background-color: rgba(0, 0, 0, 0);
+            font-size: 3rem;
+            color: $colour-red;
+        }
+
+        &-btn-right{
+            cursor: pointer;  
+            position: absolute;
+            bottom: 0.5rem;
+            right:8rem;
+            border: none;
+            background-color: rgba(0, 0, 0, 0);
+            font-size: 3rem;
+            color: $colour-red;
+        }
+
+        }

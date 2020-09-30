@@ -765,6 +765,17 @@
   overflow: hidden;
   border-bottom: 5px solid #7e2934;
   width: 100%; }
+  .about ul {
+    margin-top: 2rem;
+    list-style: none; }
+  .about li {
+    color: #ececec;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 1.6rem;
+    padding: 0.5rem; }
+  .about i {
+    font-size: 1rem; }
   .about_box_text {
     width: 35%;
     position: absolute;
@@ -865,6 +876,17 @@
   color: white;
   overflow: hidden;
   min-height: 45rem; }
+  .getintouch_description_para {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-top: .5rem;
+    line-height: 1.2;
+    text-transform: none;
+    animation: moveinright 1s;
+    transition: all 1s;
+    padding-top: 0.5rem;
+    letter-spacing: -0.0375rem; }
   .getintouch_link {
     text-decoration: none;
     color: white;
@@ -873,7 +895,7 @@
   .getintouch_box_text {
     margin: 10rem auto;
     text-align: center;
-    width: 75%; }
+    width: 85%; }
     .getintouch_box_text > h1 {
       font-family: 'Montserrat', sans-serif;
       font-size: 3rem;
@@ -942,6 +964,66 @@
   line-height: 1.5;
   text-transform: none;
   animation: moveinright 1s; }
+
+.portfolio {
+  position: relative;
+  min-height: 45rem;
+  border-bottom: 3px solid #7e2934; }
+  .portfolio_arrow {
+    clip-path: polygon(0 0, 55% 0, 38% 100%, 0% 100%);
+    min-height: 45rem;
+    background-color: #65ad45;
+    margin-bottom: 1rem; }
+    .portfolio_arrow > h1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%);
+      transform: translateY(-50%);
+      color: white;
+      position: absolute;
+      top: 24rem;
+      font-size: 5rem;
+      left: 5rem; }
+    .portfolio_arrow > p {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%);
+      transform: translateY(-50%);
+      color: white;
+      position: absolute;
+      top: 30rem;
+      font-size: 2rem;
+      left: 5rem; }
+  .portfolio-carousell {
+    min-height: 45rem;
+    width: 63%;
+    background-color: grey;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    max-height: 60rem; }
+  .portfolio-btn-left {
+    cursor: pointer;
+    position: absolute;
+    bottom: 0.5rem;
+    left: 8rem;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 3rem;
+    color: #7e2934; }
+  .portfolio-btn-right {
+    cursor: pointer;
+    position: absolute;
+    bottom: 0.5rem;
+    right: 8rem;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 3rem;
+    color: #7e2934; }
 
 @keyframes moveinleft {
   0% {

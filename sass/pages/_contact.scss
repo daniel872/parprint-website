@@ -6,6 +6,25 @@
        
     @include card(to left,rgba(126,41,52,0.8) 0, rgba(101, 173, 69, 0.8) 75%,"../Images/Home/getintouch.png");
     min-height:45rem;
+
+    &_description_para{
+        
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.8rem;
+        font-weight: 300;
+        margin-top: .5rem;
+        line-height: 1.2;
+        text-transform:none;
+        animation: moveinright 1s;
+        transition: all 1s;
+        padding-top: 0.5rem;
+        letter-spacing: -0.0375rem;
+
+        // &:hover{
+        //     // color:rgb(5, 63, 5);
+        //     transform: scale(1.2);
+        // }
+     }
      
           
               &_link{
@@ -22,7 +41,7 @@
 margin: 10rem auto;
 text-align: center;
 
-width: 75%;
+width: 85%;
 
     
 
@@ -32,7 +51,7 @@ width: 75%;
 
      
      }
-
+     
      & span{
      @include subtitle;
      margin-top: 2rem;
