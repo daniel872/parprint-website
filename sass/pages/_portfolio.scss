@@ -1,3 +1,5 @@
+@import '../base/animation';
+
 .portfolio{
 
     // @include card(to right,#65ad45,rgba(255, 255, 255, 0.187),"../Images/home.jpg");
@@ -11,10 +13,7 @@
             min-height:45rem;
             background-color:$colour-green;
             margin-bottom: 1rem;
-           
-
-          
-
+       
           &>h1{
               @include center;
               color: white;
@@ -22,7 +21,7 @@
               top:24rem;
               font-size: 5rem;
               left:5rem;
-              
+               
           }
           &>p{
             @include center;
@@ -72,6 +71,20 @@
         }
 
         }
-
+        .samples{
+          padding: 1.2rem 0;
+          text-align: center;
+          background-color: rgb(231, 230, 230);
+     
+           h1{
+               font-family: 'Montserrat', sans-serif;
+               font-size: 3rem;
+               font-weight: 500;
+               text-transform: uppercase;
+   
+               }
+   img{width: 100%;}
+   
+           }
      
          

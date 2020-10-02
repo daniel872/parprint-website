@@ -1,6 +1,7 @@
 @import 'sass/abstracts/variables';
 
 
+
 .row{max-width: 75%;
     margin: 1rem auto;
 
@@ -40,7 +41,7 @@
     }
     
 }
-.row{
+.row{position: relative;
 
     
     .col-1-of-3:not(:last-child){
@@ -56,8 +57,23 @@
         float: left;
         text-align: center;
         transition: all 0.5s ease-out;
+
+        &::after{
+            display:block;
+            content:"";
+            height:2rem;
+            background-color: yellow;
+            width:0;
+            transition: all 1s;
+            }
+    
     &:hover{
         transform: scale(1.05);
+
+        &::after{
+            width:100%
+        }
+        
     }
     }
 
@@ -67,6 +83,8 @@
         margin-top: -2.5rem;
         margin-bottom: 0.5rem;
         font-size: 1.2rem;
+
+
     }
 }
 

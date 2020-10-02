@@ -262,7 +262,8 @@ img{width: 100%;}
         rgba(101, 173, 69, 1) 63%,
         rgba(0, 0, 0, 0) 63%),
         url("../Images/Small/aboutus_1_small.png");}
-    .about_box_text{width:65%}
+    .about_box_text,.smallFormat_box_text{width:65%}
+    .creative_box_text{width:57%}
     .overlay{min-height:35vh;}
     .nav-list > .list > .item > .link{font-size:2rem}
     .portfolio_arrow{
@@ -274,4 +275,5 @@ img{width: 100%;}
     &_box_text{width:68%}
 
     }
+
 }
