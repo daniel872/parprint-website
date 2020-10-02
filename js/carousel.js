@@ -1,10 +1,24 @@
 const images=[
     {src:'_path1',
-    description:'text1'},
+    description:'Pepsi POP Display'},
     {src:'_path2',
-    description:'text2'},
+    description:'Quaker Oats POP'},
     {src:'_path3',
-    description:'text3'}
+    description:'Burger King DM'},
+    {src:'_path4',
+    description:'MedicAlert Foundation Canada'},
+    {src:'_path5',
+    description:'Pizza Hut Signage'},
+    {src:'_path6',
+    description:"Topper's Pizza POP"},
+    {src:'_path7',
+    description:'BK Instore Signage'},
+    {src:'_path8',
+    description:'BK Outdoor Signage'},
+    {src:'_path9',
+    description:'HBC POP'},
+    {src:'_path10',
+    description:'SAKS DM'}
 ]
 
 const carousell=document.querySelectorAll('.portfolio-carousell')
@@ -14,21 +28,69 @@ const btnLeft=document.querySelector('.portfolio-btn-left')
 const btnRight=document.querySelector('.portfolio-btn-right')
 const container=document.querySelector('.portfolio-carousell')
 const descriptionText=document.querySelector('.portfolio_arrow > p');
-    container.style.backgroundColor="black";
-    let start=3
+container.style.backgroundColor="black";
+let state={
+    start:0,
+    btnLeftpressed:false,
+    btnRightpressed:false,
+    counter:0
+}
     btnLeft.addEventListener('click', function(){
-
+        if(state.counter<images.length){
+        let start=(images.length-1) - state.counter
+        state.counter++
+        state.btnLeftpressed=true
         descriptionText.innerHTML=images[start].description
-        
-        return start++
+        console.log(`start este ${start}
+                        counter este ${state.counter} and ${state.btnLeftpressed}`)
+
+        return state}
+        else if (counter===images.length){
+            counter=0
+            let start=(images.length-1) - counter
+            counter++
+            descriptionText.innerHTML=images[start].description
+            console.log(`start este ${start}
+                            counter este ${counter}`)
+            return counter
+        }
     })
     
     
 
 
 btnRight.addEventListener('click',function(){
-    descriptionText.innerHTML=images[start-1].description
-        start=start-1
-        return start
+    if(state.counter===0){
+        start=state.counter
+        state.counter++
+        state.btnRightpressed=true;
+        descriptionText.innerHTML=images[start].description
+        console.log(`start este ${start}
+                        counter este ${state.counter}`)
+        return state.counter}
+
+        else if(state.counter>0 && state.btnRightpressed ){
+                state.start++
+                start=state.start
+                state.btnRightpressed=true;
+                state.btnLeftpressed=false
+                descriptionText.innerHTML=images[start].description
+                console.log(`start este ${start}
+                                counter este ${state.counter}`)
+                
+                return state
+        }
+        else if (state.counter>=1 && state.btnLeftpressed){
+            let start=images.length - (state.counter-1)
+            descriptionText.innerHTML=images[start].description
+            state.start=start
+            state.btnLeftpressed=false
+            state.btnRightpressed=true
+            console.log(`start este ${start}
+            counter este ${state.counter} and ${state.btnLeftpressed}`)
+            return state
+        }
+        
 })
+
 

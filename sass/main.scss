@@ -253,11 +253,25 @@ img{width: 100%;}
     .getstarted .box_text{
         width:50%;
     }
+
 }
 @media only screen and (max-width:600px){
    
     html{font-size: 40%;}
+    .about{    background-image:  linear-gradient(-105deg,rgba(101, 173, 69, 1) 0%,
+        rgba(101, 173, 69, 1) 63%,
+        rgba(0, 0, 0, 0) 63%),
+        url("../Images/Small/aboutus_1_small.png");}
+    .about_box_text{width:65%}
+    .overlay{min-height:35vh;}
+    .nav-list > .list > .item > .link{font-size:2rem}
+    .portfolio_arrow{
+        clip-path:polygon(0 0, 65% 0, 45% 100%, 0% 100%);
+    }
 
+    .commercialOffset{
+        background-image: linear-gradient(105deg, #65ad45 0%, #65ad45 67%, rgba(0, 0, 0, 0) 50%), url(../Images/Small/commercialOffset_small.png);
+    &_box_text{width:68%}
 
-   
+    }
 }
