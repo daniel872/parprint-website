@@ -58,19 +58,18 @@
         text-align: center;
         transition: all 0.5s ease-out;
 
-        &::after{
+        &::before{
             display:block;
             content:"";
-            height:2rem;
-            background-color: yellow;
+            background-color:darken($colour-red,5%);
             width:0;
             transition: all 1s;
             }
     
     &:hover{
         transform: scale(1.05);
-
-        &::after{
+       
+        &::before{
             width:100%
         }
         

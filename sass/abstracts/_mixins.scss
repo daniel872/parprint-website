@@ -54,7 +54,7 @@
         border-radius: 10px;
         box-shadow: 1px 3px 6px 3px rgba(0, 0, 0, 0.322) ;
 
-        &:hover{
+        &:hover, &:focus, &:active{
             animation: btn .4s ;
         }
     

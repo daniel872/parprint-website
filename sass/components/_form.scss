@@ -1,4 +1,7 @@
+@import '../abstracts/mixins';
+
 .form{
+    
     font-family: inherit;
     width: 100%;
     background-color:white;
@@ -46,6 +49,8 @@ margin-bottom: 2rem;
 }
 
 
-
+iframe{display:block;
+    margin: 1rem auto;
+}
 
 
