@@ -46,17 +46,20 @@ background: linear-gradient(105deg, rgba(101,173,69,1) 0%,
             @include center;
             color: white;
             top:12rem;
-            font-size: 2rem;
+            font-size: 1.5rem;
+            font-weight: 500;
             left:-40%;
             width:125%;
             text-align: right;
+            letter-spacing: -0.0375rem;
           }
 
           &_product{
             @include center;
             color: white;
             top:14rem;
-            font-size: 1.5rem;
+            font-size: 1rem;
+            letter-spacing: -0.0375rem;
             left:-15%;
             width:100%;
             text-align: right;
