@@ -285,10 +285,12 @@ img{width: 100%;}
     .getintouch{
         background-image: linear-gradient(to left, rgba(30, 30, 30, 0.8) 0, rgba(30, 30, 30, 0.8) 75%), url(../Images/Small/getintouch_small.png);
         &_box_text{
-            margin:5rem auto;
-        }
+            margin: 6rem auto;
+            text-align: center;
+            // margin-left: 50%;
+            width: 85%;
     }
-
+    }
     
     .commercialOffset{
         background-image: linear-gradient(105deg, #65ad45 0%, #65ad45 67%, rgba(0, 0, 0, 0) 50%), url(../Images/Small/commercialOffset_small.png);

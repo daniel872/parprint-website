@@ -11,10 +11,10 @@
     &_description_para{
         
         font-family: 'Montserrat', sans-serif;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         font-weight: 300;
-        margin-top: .5rem;
-        line-height: 1.2;
+        // margin-top: .5rem;
+        line-height: 1.4;
         text-transform:none;
         animation: moveinright 1s;
         transition: all 1s;
@@ -29,10 +29,10 @@
      
           
               &_description_list{
-               margin-top:4rem;
+               margin-top:3rem;
                list-style: none;
-               line-height: 2.5rem;
-               font-size: 1.4rem;                    
+               line-height: 2rem;
+               font-size: 1.1rem;                    
              }
 
         //   &_description_item{
@@ -57,16 +57,17 @@
           
      &_box_text{
          
-margin: 10rem auto;
+margin: 8% auto;
 text-align: center;
-
-width: 90%;
+margin-left: 50%;
+width: 48%;
 
     
 
      &>h1{
      @include title;
      font-weight: 500;
+     margin-bottom: 1rem;
 
      
      }
