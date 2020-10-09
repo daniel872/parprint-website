@@ -4,13 +4,14 @@
 
 .getintouch{
        
-    @include card(to left,rgba(10, 5, 6, 0.8) 0, rgba(10, 5, 6, 0.8) 75%,"../Images/Home/getintouch.png");
-    min-height:45rem;
+    @include card(to left,rgba(30, 30, 30, 0.8) 0, rgba(30, 30, 30, 0.8) 75%,"../Images/Home/getintouch.png");
+    min-height:35rem;
+    max-height: 40rem;
 
     &_description_para{
         
         font-family: 'Montserrat', sans-serif;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         font-weight: 300;
         margin-top: .5rem;
         line-height: 1.2;
@@ -27,13 +28,30 @@
      }
      
           
-              &_link{
-                  text-decoration: none;
-                  
-                  color:$colour-text-light;
-                  font-family: 'Montserrat', sans-serif;
-                  font-weight: 500;                    
+              &_description_list{
+               margin-top:4rem;
+               list-style: none;
+               line-height: 2.5rem;
+               font-size: 1.4rem;                    
              }
+
+        //   &_description_item{
+
+        //   }   
+
+          &_description_link{
+            text-decoration: none;
+                  
+            color:$colour-text-light;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+
+            & i{
+              margin-right: 1rem;
+             }
+
+          }
+
           
 
           
@@ -41,7 +59,7 @@
 margin: 10rem auto;
 text-align: center;
 
-width: 75%;
+width: 90%;
 
     
 
@@ -51,21 +69,23 @@ width: 75%;
 
      
      }
+
      
-     & span{
-     @include subtitle;
-     margin-top: 2rem;
-     i{
-         margin-right: 1rem;
-     }
+     
+    //  & span{
+    //  @include subtitle;
+    //  margin-top: 2rem;
+    //  i{
+    //      margin-right: 1rem;
+    //  }
 
-     }
-     &>h1, span{
-     display: block;            
-     }
+    //  }
+    //  &>h1, span{
+    //  display: block;            
+    //  }
 
-     &>h1 span{width: 100%; 
-     }
+    //  &>h1 span{width: 100%; 
+    //  }
      
              }
           }
