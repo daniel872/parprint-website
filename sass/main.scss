@@ -277,10 +277,16 @@ img{width: 100%;}
 
     .guarantee{
         background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../Images/Small/guarantee_small.png);
+        &_box_text{
+            transform: translateY(-55%);
+        }
     }
     
     .getintouch{
         background-image: linear-gradient(to left, rgba(30, 30, 30, 0.8) 0, rgba(30, 30, 30, 0.8) 75%), url(../Images/Small/getintouch_small.png);
+        &_box_text{
+            margin:5rem auto;
+        }
     }
 
     
