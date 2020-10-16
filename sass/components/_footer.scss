@@ -4,6 +4,8 @@
     font-family: inherit;
     background-color:$colour-black ;
     padding: 1.5rem 0 1.5rem 0;
+    text-align: center;
+    
     
 
     &-list{
@@ -30,5 +32,10 @@
         text-align: center;
         margin-top: 1rem;
         font-size: 0.8rem;
+    }
+
+    & span{
+        display: block;
+        margin-top:1rem;
     }
 }
