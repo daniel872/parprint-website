@@ -1,63 +1,63 @@
 const images=[
     {src:'./Images/Portfolio/lays_Weekender_Header.png',
     company:"Frito Lays",
-    product:"Indoor Signage_01"},
+    product:"Indoor Signage"},
 
     {src:'./Images/Portfolio/lays_Shelf_Hanger.png',
     company:"Frito Lays",
-    product:"Shelf Hanger_02"},
+    product:"Shelf Hanger"},
 
     {src:'./Images/Portfolio/56144_TostitosWobbler_EN.png',
     company:'Tostitos',
-    product:" Wobbler_03"},
+    product:" Wobbler"},
 
     {src:'./Images/Portfolio/DoritosShlfHang.png',
     company:'Doritos',
-    product:"Shelf Hanger_04"},
+    product:"Shelf Hanger"},
 
     {src:'./Images/Portfolio/medicalAlert_01.png',
     company:'MedicAlert Foundation Canada',
-    product:"Brochure_05"},
+    product:"Brochure"},
 
     {src:'./Images/Portfolio/56103_BoxTopper-399-1.png',
     company:'PizzaHut',
-    product:"Boxtopper_06"},
+    product:"Boxtopper"},
 
     {src:'./Images/Portfolio/56103_BoxTopper-399-2.png',
     company:'PizzaHut',
-    product:"Boxtopper_07"},
+    product:"Boxtopper"},
 
     {src:'./Images/Portfolio/HBC_HolidayCharityGala_CounterSign_final.png',
     company:"Hudson's Bay Company",
-    product:"Instore POP_08"},
+    product:"Instore POP"},
 
     {src:'./Images/Portfolio/HBC_HolidayCharityGala_Foamcore_final.png',
     company:"Hudson's Bay Company",
-    product:"Instore POP_09"},
+    product:"Instore POP"},
 
      {src:'./Images/Portfolio/Saks.png',
     company:'SAKS Fifth Avenue',
-    product:"Postcard Personalized Mailer_10"},
+    product:"Postcard Personalized Mailer"},
 
-    {src:'./Images/Portfolio/HBC_HolidayCharityGala_CounterSign_final.png',
+    {src:'./Images/Portfolio/56337_HBC_SAKS-1.png',
     company:"Hudson's Bay Company",
-    product:"Instore POP_11"},
+    product:"Gift Card"},
 
     {src:'./Images/Portfolio/BK_EN_Coupon-1.png',
     company:'Burger King',
-    product:"Neighbourhood Coupons Mailer_12"},
+    product:"Neighbourhood Coupons Mailer"},
 
     {src:'./Images/Portfolio/FrenchCoupon_CR-HR-1.png',
     company:'Burger King',
-    product:"Neighbourhood Coupons Mailer_13"},
+    product:"Neighbourhood Coupons Mailer"},
 
     {src:'./Images/Portfolio/56103_BoxTopper-399-1.png',
     company:"Topper's Pizza",
-    product:"Neighbourhood Flyer Mailer_14"},
+    product:"Neighbourhood Flyer Mailer"},
 
-    {src:'./Images/Portfolio/56103_BoxTopper-399-1.png',
+    {src:'./Images/Portfolio/Toppers_CeilingDangler7.png',
     company:"Topper's Pizza",
-    product:"POP Dangler_15"}
+    product:"POP Dangler"}
 
 
 ]
