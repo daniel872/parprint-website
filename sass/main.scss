@@ -17,6 +17,7 @@
 @import './pages/aboutus';
 @import './pages/contact';
 @import './pages/portfolio';
+@import './pages/sendfile';
 @import './components/popup';
 
 
@@ -94,8 +95,8 @@ color: $colour-white;}
     // @include card(to right,#65ad45,rgba(255, 255, 255, 0.187),"../Images/home.jpg");
     position: relative;
     min-height:45rem;
-    background-image: linear-gradient(105deg,rgba(101, 173, 69, 1) 0%,
-                                    rgba(101, 173, 69, 1) 50%,
+    background-image: linear-gradient(105deg,rgba(5,106,247,1) 0%,
+                                    rgba(5,106,247,1) 50%,
                                     rgba(0, 0, 0, 0) 50%), 
                                     url("../Images/Home/home.png");
     background-size: cover;
@@ -259,8 +260,8 @@ img{width: 100%;}
 @media only screen and (max-width:600px){
    
     html{font-size: 40%;}
-    .about{    background-image:  linear-gradient(-105deg,rgba(101, 173, 69, 1) 0%,
-        rgba(101, 173, 69, 1) 63%,
+    .about{    background-image:  linear-gradient(-105deg,rgba(5,106,247,1) 0%,
+        rgba(5,106,247,1) 63%,
         rgba(0, 0, 0, 0) 63%),
         url("../Images/Small/aboutus_1_small.png");}
     .about_box_text,.smallFormat_box_text{width:65%}
@@ -272,7 +273,7 @@ img{width: 100%;}
     }
 
     .getstarted{
-        background-image: linear-gradient(105deg, #65ad45 0%, #65ad45 50%, rgba(0, 0, 0, 0) 50%), url(../Images/Small/home_small.png);
+        background-image: linear-gradient(105deg, rgba(5,106,247,1) 0%, rgba(5,106,247,1) 50%, rgba(0, 0, 0, 0) 50%), url(../Images/Small/home_small.png);
     }
 
     .guarantee{
@@ -293,7 +294,7 @@ img{width: 100%;}
     }
     
     .commercialOffset{
-        background-image: linear-gradient(105deg, #65ad45 0%, #65ad45 67%, rgba(0, 0, 0, 0) 50%), url(../Images/Small/commercialOffset_small.png);
+        background-image: linear-gradient(105deg, rgba(5,106,247,1) 0%, rgba(5,106,247,1) 67%, rgba(0, 0, 0, 0) 50%), url(../Images/Small/commercialOffset_small.png);
 
         .commercialOffset_box_text{width:68%;}
 

@@ -1,0 +1,36 @@
+@import '../abstracts/variables';
+@import '../abstracts/mixins';
+
+
+.send{
+    margin-top: 5rem;
+
+          
+     &_box_text{
+         
+margin: 8% auto;
+text-align: center;
+
+width: 80%;
+
+    
+
+     &>h1{
+     @include title;
+     font-weight: 500;
+     margin-bottom: 1rem;
+
+
+     
+     }
+     & span{
+        @include subtitle;
+        hyphens:none;
+        
+        }
+        &>h1, span{
+        display: block;            
+        }
+    }
+}
+
