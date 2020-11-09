@@ -2,35 +2,75 @@
 @import '../abstracts/mixins';
 
 
-.send{
-    margin-top: 5rem;
+// .send{
+//     margin-top: 5rem;
 
           
-     &_box_text{
+//      &_box_text{
          
-margin: 8% auto;
-text-align: center;
+// margin: 8% auto;
+// text-align: center;
 
-width: 80%;
+// width: 80%;
 
     
 
-     &>h1{
-     @include title;
-     font-weight: 500;
-     margin-bottom: 1rem;
+//      &>h1{
+//      @include title;
+//      font-weight: 500;
+//      margin-bottom: 1rem;
 
 
      
-     }
-     & span{
-        @include subtitle;
-        hyphens:none;
+//      }
+//      & span{
+//         @include subtitle;
+//         hyphens:none;
         
-        }
-        &>h1, span{
-        display: block;            
-        }
+//         }
+//         &>h1, span{
+//         display: block;            
+//         }
+//     }
+// }
+
+
+.send{
+
+    // @include card(to right,#65ad45,rgba(255, 255, 255, 0.187),"../Images/home.jpg");
+    position: relative;
+    min-height:45rem;
+    background-image: linear-gradient(105deg,rgba(5,106,247,1) 0%,
+                                    rgba(5,106,247,1) 50%,
+                                    rgba(0, 0, 0, 0) 50%), 
+                                    url("../Images/Home/home.png");
+    background-size: cover;
+    background-position: top;
+    color:$colour-white;
+
+           
+
+    &_box_text{
+    width:50%;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    padding:0 2rem;
+    text-align:center;
+   
+   &>h1{
+@include title
+    
+   }
+
+   & span{
+@include subtitle
+   }
+   &>h1, span{
+    display: block;            
+   }
+
+    &>h1 span{width: 100%; 
+     }
     }
 }
-
