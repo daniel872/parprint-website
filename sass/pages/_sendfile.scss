@@ -2,37 +2,6 @@
 @import '../abstracts/mixins';
 
 
-// .send{
-//     margin-top: 5rem;
-
-          
-//      &_box_text{
-         
-// margin: 8% auto;
-// text-align: center;
-
-// width: 80%;
-
-    
-
-//      &>h1{
-//      @include title;
-//      font-weight: 500;
-//      margin-bottom: 1rem;
-
-
-     
-//      }
-//      & span{
-//         @include subtitle;
-//         hyphens:none;
-        
-//         }
-//         &>h1, span{
-//         display: block;            
-//         }
-//     }
-// }
 
 
 .send{
@@ -43,10 +12,23 @@
     background-image: linear-gradient(105deg,rgba(5,106,247,1) 0%,
                                     rgba(5,106,247,1) 50%,
                                     rgba(0, 0, 0, 0) 50%), 
-                                    url("../Images/Home/home.png");
+                                    url("../Images/Home/data_transfer_small.jpg");
     background-size: cover;
     background-position: top;
     color:$colour-white;
+
+
+   //  &_button{
+   //     width:100%;
+   //     margin: 0 auto;
+       
+
+   //     & iframe{
+   //        width: 90%;
+   //        text-align: center;
+          
+   //     }
+   //  }
 
            
 
@@ -74,3 +56,4 @@
      }
     }
 }
+
